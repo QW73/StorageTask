@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.qw73.fileManager.activity.MainActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        style="@style/Widget.Material3.Toolbar.Surface"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        app:subtitleTextAppearance="@style/TextAppearance.Material3.BodySmall"
+        app:titleTextAppearance="@style/TextAppearance.Material3.TitleMedium" />
+
+    <com.google.android.material.divider.MaterialDivider
+        android:id="@+id/actionvar_divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5px"
+        android:alpha="0.5" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/Widget.Material3.CardView.Elevated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="3dp">
+
+        <com.qw73.fileManager.common.view.BottomBarView
+            android:id="@+id/bottom_bar_view"
+            android:layout_width="match_parent"
+            android:layout_height="56dp" />
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

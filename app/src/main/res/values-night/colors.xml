@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="selectedFileHighlight">#2F0066FF</color>
+    <color name="previousFileHighlight">#0FFDFDFD</color>
+</resources>

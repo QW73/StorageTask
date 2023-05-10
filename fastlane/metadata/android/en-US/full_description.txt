@@ -1,0 +1,8 @@
+<i>File Explorer</i> is a full-featured and lightweight file manager with Material 3 Dynamic colors.
+
+<br><b>Features:</b>
+
+- All basic file management functionality (e.g. copy, paste,.. etc) are supported.
+- Support for multiple tabs, and Tasks which make managing files much easier.
+- Powerful Code Editor (<a href='https://github.com/Rosemoe/sora-editor' target='_blank' rel='nofollow'>Sora Editor</a>).
+- Deep search that allows you to search in files contents.
